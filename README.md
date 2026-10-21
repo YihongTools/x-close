@@ -4,9 +4,9 @@ Android 自動點選關閉 X 的測試工具。手動開始後，辨識前景 Ap
 
 ## 下載與安裝
 
-到 [Releases](https://github.com/YihongTools/x-close/releases) 下載 APK。此倉庫用於 APK 發布與使用說明，目前不包含完整原始碼。
+到 [Releases](https://github.com/YihongTools/x-close/releases/tag/v0.2.0-alpha.14) 下載 APK。此倉庫用於 APK 發布與使用說明，目前不包含完整原始碼。
 
-目前版本 **0.2.0-alpha.12（versionCode 28）**，Android 11 以上。這是使用 Android debug 簽章的預發布測試 APK，尚非正式穩定版，也未經 Google Play 審核。下載後依手機提示安裝，閱讀 App 用途說明並同意，在系統無障礙設定啟用 X Close、允許通知，再按「開始」。重新啟動不會自動開始。
+目前版本 **0.2.0-alpha.14（versionCode 30）**，Android 11 以上。這是使用 Android debug 簽章的預發布測試 APK，尚非正式穩定版，也未經 Google Play 審核。下載後依手機提示安裝，閱讀 App 用途說明並同意，在系統無障礙設定啟用 X Close、允許通知，再按「開始」。重新啟動不會自動開始。
 
 ## 範圍與限制
 
@@ -22,16 +22,18 @@ Android 自動點選關閉 X 的測試工具。手動開始後，辨識前景 Ap
 
 ## 驗證與校驗
 
-建置與 lint、實際支持按鈕目的網址測試通過。廣告流程先前完成 16 項特殊商店流程、20 項 X 辨識、12 項無 X 返回合成驗證；這些不代表所有真實廣告均成功。alpha.12 僅更換支持連結，未重跑未受影響的廣告流程。
+建置與 lint、實際支持按鈕目的網址測試通過。廣告流程先前完成 16 項特殊商店流程、20 項 X 辨識、12 項無 X 返回合成驗證；這些不代表所有真實廣告均成功。alpha.14 保留原樣單行「支持開發 / 問題回報」，兩段文字分別開啟支持網站與郵件草稿；已通過文字範圍觸控、郵件預填與缺少郵件App時複製信箱的測試，以及一般／小螢幕大字單行檢查。本次未改廣告流程，未重跑其回歸。
 
 每個 Release 附 APK 與 SHA256SUMS.txt。此版 SHA-256：
 
 ```
-0d3493f47c28f8b69e984679f64721e99dc930a09825051d41b405ba4bd68240
+487aa964f698780a472fe8bc76ff632689bddaaa9e7fdf74738b80d174fde18c
 ```
 
 ## 支持開發／問題回報
 
-[支持開發／問題回報](https://yihongcho.bobaboba.me)
+[支持開發](https://yihongcho.bobaboba.me) / [問題回報](mailto:yihongcho@gmail.com)
+
+App 內維持原樣同一行，點「問題回報」開啟郵件編輯，預填收件人、主旨及App版本，由使用者自行寄出，不附截圖或日誌。若沒有可寄信的App，提供複製信箱。
 
 問題回報請說明版本、手機系統及卡住的步驟，避免貼上帳號、通知內容或其他個人資料。
